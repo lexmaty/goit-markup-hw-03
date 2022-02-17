@@ -61,6 +61,7 @@ img {
 
 .container {
   width: 1200px;
+
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -91,7 +92,6 @@ img {
   padding-bottom: 25px;
 
   border-bottom: 1px solid #ececec;
-
   background-color: var(--main-bg-color);
 }
 
@@ -114,12 +114,11 @@ img {
   color: #000000;
 }
 
-/* Header Link */
-
 .header .logo-link {
   margin-right: 93px;
 }
 
+/* Header Nav */
 .nav-list {
   display: flex;
   align-items: center;
@@ -141,11 +140,22 @@ img {
   color: var(--secondary-txt-color);
 }
 
+.nav-link-current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-txt-color);
+}
+
+/* Header Contacts */
 .header-contacts-list {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
+
 .header-contacts-item {
   margin-right: 50px;
 }
@@ -162,15 +172,6 @@ img {
   color: var(--main-txt-color);
 }
 
-.nav-link-current {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: var(--accent-txt-color);
-}
-
 .nav-link:hover,
 .nav-link:focus,
 .header-contact:hover,
@@ -178,7 +179,8 @@ img {
   color: var(--accent-txt-color);
 }
 
-/* Main */
+/* Main 
+    Hero*/
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -216,7 +218,6 @@ img {
 
   background-color: var(--accent-bg-color);
   color: var(--hero-txt-color);
-
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
@@ -244,6 +245,8 @@ img {
 }
 
 .about-title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -251,6 +254,11 @@ img {
   text-transform: uppercase;
 
   color: var(--secondary-txt-color);
+}
+
+/* Doing */
+.doing {
+  padding-bottom: 94px;
 }
 
 .doing-title,
@@ -264,11 +272,6 @@ img {
   letter-spacing: 0.03em;
 
   color: var(--secondary-txt-color);
-}
-
-/* Doing */
-.doing {
-  padding-bottom: 94px;
 }
 
 .doing-list {
@@ -309,8 +312,8 @@ img {
 }
 
 .team-worker {
-  display: block;
   margin-bottom: 10px;
+
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -337,6 +340,7 @@ img {
 .footer-logo {
   color: var(--footer-main-txt-color);
 }
+
 .footer .logo-link {
   display: block;
   margin-bottom: 20px;
@@ -368,7 +372,8 @@ img {
   color: var(--accent-txt-color);
 }
 
-/* Portfolio.html */
+/* Portfolio.html 
+    Filters*/
 .filters-position {
   display: flex;
   margin-bottom: 50px;
@@ -403,7 +408,6 @@ img {
 .filters-item {
   margin-right: 8px;
 }
-
 .filters-item:last-child {
   margin-right: 0;
 }
