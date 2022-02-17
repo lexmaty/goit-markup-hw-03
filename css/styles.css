@@ -74,8 +74,19 @@ ul {
 /* Header 
    Header Logo*/
 .header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  border: 1px solid #ececec;
+
   background-color: var(--main-bg-color);
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .logo-link {
   font-family: var(--logo-font-txt);
   font-weight: 700;
@@ -91,6 +102,23 @@ ul {
 }
 
 /* Header Link */
+
+.header .logo-link {
+  margin-right: 93px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+.nav-item:last-child {
+  margin-right: 0;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -98,6 +126,18 @@ ul {
   letter-spacing: 0.02em;
 
   color: var(--secondary-txt-color);
+}
+
+.header-contacts-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.header-contacts-item {
+  margin-right: 50px;
+}
+.header-contacts-item:last-child {
+  margin-right: 0;
 }
 
 .header-contact {
